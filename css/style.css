@@ -1,0 +1,75 @@
+/*
+html {
+  background: url(running.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*/
+
+
+body{
+	text-align:center;
+
+  background: url(running.jpeg);
+/*  background-repeat:repeat-y;*/
+  background-position:center;
+  /*background-attachment:scroll;*/
+  background-size:cover;
+
+}
+
+.ui-page {
+    background: transparent;
+
+}
+
+form label{
+color: white;
+font-weight: bolder;
+
+
+
+}
+
+
+
+.ui-content{
+    /*background: transparent;*/
+		float: left;
+  /*  opacity: 0.5;*/
+	padding-left: 6rem;
+}
+
+ul{
+	display:block;
+
+
+}
+header h1{
+	color: red;
+}
+.controls{
+	float:right;
+  opacity: 0.5;
+}
+
+#stats p{
+	color:red;
+  background: none;
+}
+.fixfont{
+opacity: 1;
+color: white;
+
+}
+
+
+#map {
+       height: 300px;
+       width: 400px;
+       float: right;
+			 opacity: 0.6;
+      }
